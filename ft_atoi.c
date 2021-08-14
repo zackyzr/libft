@@ -1,4 +1,4 @@
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
 	int		i;
 	int		res;
@@ -22,9 +22,10 @@ int	ft_atoi(char *str)
 }
 
 /*
+#include <stdio.h>
 int	main()
 {
-	char str1[] = "-1324";
+	char str1[] = "    -1335";
 	int j = ft_atoi(str1);
 	printf("%d", j);
 	return (0);
