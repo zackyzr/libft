@@ -1,5 +1,6 @@
-#include <stddef.h>
-
+#include "libft.h"
+//strncmp is basically comparing s1 and s2 and 
+//returning the ascii avlue of that difference
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
